@@ -20,13 +20,15 @@ const env = {
   NEXT_PUBLIC_STATIC_PAGES: "1",
 };
 
+let status = 1;
 try {
   const result = spawnSync("npx", ["next", "build"], {
     stdio: "inherit",
     env,
     cwd: root,
   });
-  process.exit(result.status ?? 1);
+  status = result.status ?? 1;
 } finally {
-  if (existsSync(tmp)) renameSync(tmp, api);
+  if (existsSync(tmp) && !existsSync(api)) renameSync(tmp, api);
 }
+process.exit(status);

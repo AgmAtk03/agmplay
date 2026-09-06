@@ -6,10 +6,19 @@ This is **not** a fake Netflix catalog. The shipped titles are a **demo adapter*
 
 ## Live preview
 
-- **Vercel (APIs + player):** see the pull request / deployment comment after CI
-- **Static CDN (UI + player, no API routes):** `https://raw.githack.com/AgmAtk03/agmplay/live-demo/index.html`
-
 Success path: Library → title → Play → demo video (pre-roll stub, then content).
+
+```bash
+npm install && npm run dev
+```
+
+- **Local (full stack, including `/api/*`):** http://localhost:3000
+- **Static `live-demo` branch** (HTML + assets, same commit — enable when the repo is **public**):
+  - Branch: https://raw.githack.com/AgmAtk03/agmplay/live-demo/index.html
+  - Pinned SHA: https://rawcdn.githack.com/AgmAtk03/agmplay/f05e9f5867770680c89c4f1a5c5f37c2665ae514/index.html
+- **Vercel:** connect `AgmAtk03/agmplay` on the Dristi Astra team (project name `agmplay`) so `/api/*` is public for mobile clients. This agent could not create a deployment (team deploy permission 403). After linking, turn off **Deployment Protection → Vercel Authentication** if the preview asks for a login.
+
+The repo is currently **private**, so githack/jsDelivr will 404 until it is public. Use local or Vercel until then.
 
 ## Architecture
 
