@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="For Bigger Escapes">
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#32181c"/>
+      <stop offset="1" stop-color="#101018"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#g)"/>
+  <text x="32" y="460" fill="#f6f1e8" font-family="Georgia, serif" font-size="28">For Bigger</text>
+  <text x="32" y="504" fill="#e8b86d" font-family="Georgia, serif" font-size="34">Escapes</text>
+  <text x="32" y="542" fill="#b8b0a4" font-family="sans-serif" font-size="14">Sample MP4</text>
+</svg>

@@ -1,0 +1,166 @@
+{
+  "provider": "demo",
+  "note": "Sample / public-domain scaffolding only. Replace via LIBRARY_PROVIDER=http or s3.",
+  "titles": [
+    {
+      "id": "big-buck-bunny",
+      "title": "Big Buck Bunny",
+      "description": "A grumpy rabbit's quiet morning is interrupted by forest pests. Open Movie from the Blender Foundation — used here as playback scaffolding, not as the product catalog.",
+      "type": "movie",
+      "year": 2008,
+      "durationSeconds": 596,
+      "posterUrl": "/posters/bbb.svg",
+      "backdropUrl": "/posters/bbb.svg",
+      "tags": ["animation", "open-movie", "hls", "dash", "mp4"],
+      "collection": "featured",
+      "license": "CC-BY 3.0 — Blender Foundation / Peach Open Movie",
+      "sources": [
+        {
+          "protocol": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "mimeType": "application/vnd.apple.mpegurl"
+        },
+        {
+          "protocol": "dash",
+          "url": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+          "mimeType": "application/dash+xml"
+        },
+        {
+          "protocol": "mp4",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "mimeType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "sintel",
+      "title": "Sintel",
+      "description": "A young adventurer searches for a baby dragon. Durian Open Movie — legal HLS and progressive MP4 sources for player testing.",
+      "type": "movie",
+      "year": 2010,
+      "durationSeconds": 888,
+      "posterUrl": "/posters/sintel.svg",
+      "backdropUrl": "/posters/sintel.svg",
+      "tags": ["animation", "open-movie", "hls", "mp4"],
+      "collection": "featured",
+      "license": "CC-BY 3.0 — Blender Foundation / Durian Open Movie",
+      "sources": [
+        {
+          "protocol": "hls",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+          "mimeType": "application/vnd.apple.mpegurl"
+        },
+        {
+          "protocol": "mp4",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "mimeType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "tears-of-steel",
+      "title": "Tears of Steel",
+      "description": "Live-action / CGI short about a group trying to stop a robot invasion. Mango Open Movie with HLS and MP4.",
+      "type": "movie",
+      "year": 2012,
+      "durationSeconds": 734,
+      "posterUrl": "/posters/tos.svg",
+      "backdropUrl": "/posters/tos.svg",
+      "tags": ["scifi", "open-movie", "hls", "mp4"],
+      "collection": "open-movies",
+      "license": "CC-BY 3.0 — Blender Foundation / Mango Open Movie",
+      "sources": [
+        {
+          "protocol": "hls",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "mimeType": "application/vnd.apple.mpegurl"
+        },
+        {
+          "protocol": "mp4",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "mimeType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "elephants-dream",
+      "title": "Elephants Dream",
+      "description": "Two characters explore a surreal machine world. The first Blender Open Movie — progressive MP4 fallback path.",
+      "type": "movie",
+      "year": 2006,
+      "durationSeconds": 654,
+      "posterUrl": "/posters/ed.svg",
+      "backdropUrl": "/posters/ed.svg",
+      "tags": ["animation", "open-movie", "mp4"],
+      "collection": "open-movies",
+      "license": "CC-BY 2.5 — Blender Foundation / Orange Open Movie",
+      "sources": [
+        {
+          "protocol": "mp4",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "mimeType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "for-bigger-joyrides",
+      "title": "For Bigger Joyrides",
+      "description": "Short Google sample clip used to verify progressive MP4, mid-roll timing, and mobile controls.",
+      "type": "clip",
+      "year": 2013,
+      "durationSeconds": 15,
+      "posterUrl": "/posters/joyrides.svg",
+      "backdropUrl": "/posters/joyrides.svg",
+      "tags": ["sample", "mp4", "short"],
+      "collection": "samples",
+      "license": "Google sample video (gtv-videos-bucket) — demo playback only",
+      "sources": [
+        {
+          "protocol": "mp4",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "mimeType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "for-bigger-escapes",
+      "title": "For Bigger Escapes",
+      "description": "Short Google sample clip for continue-watching and ad-overlay checks.",
+      "type": "clip",
+      "year": 2013,
+      "durationSeconds": 15,
+      "posterUrl": "/posters/escapes.svg",
+      "backdropUrl": "/posters/escapes.svg",
+      "tags": ["sample", "mp4", "short"],
+      "collection": "samples",
+      "license": "Google sample video (gtv-videos-bucket) — demo playback only",
+      "sources": [
+        {
+          "protocol": "mp4",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "mimeType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "bipbop",
+      "title": "BipBop HLS",
+      "description": "Apple HLS test stream (advanced fMP4). Used to verify hls.js adaptive bitrate and Safari native HLS.",
+      "type": "clip",
+      "year": 2017,
+      "durationSeconds": 1800,
+      "posterUrl": "/posters/bipbop.svg",
+      "backdropUrl": "/posters/bipbop.svg",
+      "tags": ["sample", "hls", "abr"],
+      "collection": "samples",
+      "license": "Apple HLS example stream — player conformance only",
+      "sources": [
+        {
+          "protocol": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ]
+    }
+  ]
+}
