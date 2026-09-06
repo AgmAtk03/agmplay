@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[41221,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js","https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/3d_5z2gq6-w4c.js"],"TitleDetail"]
+3:I[97367,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"ViewportBoundary"]
+9:I[97367,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"MetadataBoundary"]
+a:I[27201,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"IconMark"]
+c:I[39756,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"default"]
+d:I[37457,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"default"]
+11:I[70119,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],"Header"]
+12:I[22016,["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js"],""]
+:HL["https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/09emp65g7my9f.css","style"]
+7:X
+f:X
+f:C
+0:{"buildId":"2zqpxAkjdvtasaFAbw8C1","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"id":"sintel"}],[["$","script","script-0",{"src":"https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/3d_5z2gq6-w4c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#08080c"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"AgmPlay"}],["$","meta","1",{"name":"description","content":"AgmBizz playback stack — library connector, adaptive player, and ad slots."}],["$","link","2",{"rel":"icon","href":"/icon.svg?icon.2_17ixy6oei0i.svg","sizes":"any","type":"image/svg+xml"}],["$","$La","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@10","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/09emp65g7my9f.css","precedence":"next"}],["$","script","script-0",{"src":"https://raw.githack.com/AgmAtk03/agmplay/live-demo/_next/static/chunks/1y0vv4un-1d58.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"outfit_8778cd42-module__wRojWG__variable fraunces_9b1dab61-module__JGOFDG__variable site-bg","children":[["$","$L11",null,{}],["$","main",null,{"children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","div",null,{"className":"empty-library","children":[["$","h1",null,{"children":"Not found"}],["$","p",null,{"className":"muted","children":"That route is not part of AgmPlay."}],["$","$L12",null,{"href":"/","className":"btn btn-ghost","children":"Library"}]]}],[]]}]}]]}]}]]}],"isPartial":"$@13","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@14","rootVaryParams":null,"needsRuntimeRequest":"$@15"}
+5:null
+7:300
+15:true
+7:C
+14:0
+b:"$undefined"
+e:"$undefined"
+10:"$undefined"
+13:"$undefined"
+6:"$undefined"

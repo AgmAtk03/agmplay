@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="BipBop HLS">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2840"/>
+      <stop offset="1" stop-color="#08080c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#g)"/>
+  <text x="32" y="470" fill="#f6f1e8" font-family="Georgia, serif" font-size="40">BipBop</text>
+  <text x="32" y="514" fill="#e8b86d" font-family="Georgia, serif" font-size="28">HLS</text>
+  <text x="32" y="550" fill="#b8b0a4" font-family="sans-serif" font-size="14">Apple test stream</text>
+</svg>
